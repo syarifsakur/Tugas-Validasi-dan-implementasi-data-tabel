@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS pemrograman web 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article id="semua">
+        <div id="kiri">
+            <div class="halnama">
+            <ul>
+                <li><img src="./logountad.png" alt=""></li>
+                <li class="nama"><h3>Syarif Mohammad Syakur</h3>
+                <h3>F55121020</h3></li>
+            </ul>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html" >home</a></li>
+                    <li><a href="data.html">Daftar Lapangan</a></li>
+                    <li><a href="form.html"class="formulir">Booking</a></li>
+                    <li><input type="submit" value="LogOut" class="logout" onclick="exit()"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="halkanan">
+            <div class="kananatas">
+            </div>
+            <div class="kananbawah">
+                <div class="bokinglapangan">
+                    <h3>Isi Form Dibawah Untuk Booking Lapangan😁</h3>
+                        <p>FORM</p>
+                        <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td class="titik2">:</td>
+                            <td><input type="text" name="nama"  class="kotak" placeholder="masukkan nama anda" ></td>
+                        </tr>
+                        <tr>
+                            <td>Lapangan </td>
+                            <td class="titik2">:</td>
+                            <td><select name="" class="pilihlap">
+                                <option value=""selected="selected" >--pilih--</option>
+                                <option value="novega">Lapangan Futsal novega</option>
+                                <option value="gelatik">Lapangan Futsal yardan gelatik</option>
+                                <option value="banteng">Lapangan Futsal Banteng Fc</option>
+                                <option value="Nunu">Lapangan Futsal Nunu</option>
+                                 <option value="gbk">Lapangan Futsal GBK</option>
+                                 <option value="tanaris">Lapangan Futsal Tanaris</option>
+                                 <option value="andy">Lapangan Futsal Andy Syahru</option>
+                                 <option value="ahmad">Lapangan Futsal Ahmad Yani</option>
+                                 <option value="nerdeka">Lapangan Futsal Merdeka</option>
+                                 <option value="puebongo">Lapangan Futsal Pue bongo</option>
+                            </select>
+                        </tr>
+                        <tr>
+                            <td>waktuSewa</td>
+                            <td class="titik2">:</td>
+                            <td><input type="datetime-local" class="kotak1">
+                        </tr>
+                        <tr>
+                            <td>WaktuMain</td>
+                            <td class="titik2">:</td>
+                            <td class="jam"><input type="number" class="kotak3" >jam</td>
+                        </tr>
+                        <tr>
+                            <td>Pembayaran</td>
+                            <td class="titik2">:</td>
+                            <td><select name="" id="" class="pilihpembayaran">
+                                <option value="" selected="selected" >--pembayaran--</option>
+                                <option value="cod">cash of delivery(cod)</option>
+                                <option value="cash">bayar langsung</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr class="aas">
+                            <td>JenisKelamin</td>
+                            <td class="titik2">:</td>
+                            <td class="jk"><p><input type='radio' name='jenis_kelamin' class="pria"/>Pria</p>
+                                <p><input type='radio' name='jenis_kelamin' class="wanita"/>Perempuan</p></td>
+                        </tr>
+                        <tr>
+                            <td>No.Hp</td>
+                            <td class="titik2">:</td>
+                            <td class="nomer">+62<input type="tel" class="kotak4" placeholder="masukkan nomor anda"></td>
+                        </tr>
+                        <tr>
+                            <td>UploadKtp</td>
+                            <td class="titik2">:</td>
+                            <td><input type="file" name="upload_ktp" class="kotak5"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="submit" value="Booking" class="kotak6" onclick="boking()"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </article>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

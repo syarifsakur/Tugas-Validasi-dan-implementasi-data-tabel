@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    margin-top: -20px;
+    background-color: rgb(221, 222, 224);
+}
+.halnama{
+    background-color: rgb(113, 161, 145);
+    width: 105%;
+    height: 150px;
+    position: sticky;
+    top: 0;
+    left: ;
+}
+.halnama ul img{
+    height: 80px;
+}
+.halnama ul {
+    display: flex;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.halnama ul li{
+    margin-top: 20px;
+}
+.halnama ul .nama{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.kananatas{
+    list-style: none;
+}
+.menu{
+    background: rgb(69, 68, 68);
+    margin-top: -16px;
+    height: 473px;
+    width: 105%;
+    position:sticky;
+    top: 23.5%;
+}
+.menu ul{
+    list-style: none;
+    padding: 30px;
+}
+.menu ul li{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.menu ul li .home{
+    background-color: rgb(158, 169, 169);
+}
+.menu ul li .datatabel{
+    background-color: rgb(158, 169, 169);
+}
+.menu ul li .formulir{
+    background-color: rgb(158, 169, 169);
+}
+.menu ul li>a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(6, 10, 14);
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    background-color: rgb(221, 222, 224);
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+}
+.menu ul li .logout{
+    text-decoration: none;
+    color: rgb(6, 10, 14);
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    background-color: rgb(221, 222, 224);
+    padding: 10px;
+    width: 173px;
+    height: 45px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu ul li>a:hover{
+    background-color: rgb(158, 169, 169);
+}
+.menu ul li .logout:hover{
+    background-color: rgb(158, 169, 169);
+    cursor: pointer;
+}
+.kananatas{
+    background-color: rgb(113, 161, 145);
+    width: 920px;
+    height: 50px;
+    margin-left: 16.5px;
+    border-radius: 10px;
+}
+#semua{
+    display: flex;
+}
+.halkanan{
+    position: sticky;
+}
+.kananbawah{
+    background-color: rgb(221, 222, 224);
+    margin: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 88.5%;
+    margin-left: 27px;
+    border: 2px double black;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 20px;
+    position: sticky;
+}
+.kananbawah span{
+    font-weight: bold;
+}
+.biodata{
+    font-size: 20px;
+    margin-top: 80px;
+}
+.biodata h3{
+    margin-top: 50px;
+}
+.biodata img{
+    height: 140px;
+    width: 350px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.biodata >a p{
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.daftarlapangan table{
+    margin: auto;
+}
+
+.daftarlapangan th{
+    background: rgb(69, 68, 68);
+    color: aliceblue;
+    padding: 30px;
+}
+.daftarlapangan td{
+    padding: 10px;
+}
+.daftarlapangan  p{
+    margin-bottom: 60px;
+    margin-top: 300px;
+}
+.bokinglapangan form{
+    margin-top: 60px;
+}
+.bokinglapangan form p{
+    font-weight: bold;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 400px;
+}
+.bokinglapangan table{
+    margin: auto;
+    margin-top: 60px;
+}
+.bokinglapangan td{
+    width: 100px;
+    height: 50px;
+}
+
+.bokinglapangan td .pria{
+    margin-left: -150px;
+}
+.bokinglapangan td .wanita{
+    margin-left: -65px;
+}
+.bokinglapangan .nomer{
+    font-size: 15px;
+    height: 25px;
+}
+.bokinglapangan td .kotak4{
+    margin-left: 4px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.bokinglapangan td .titik2{
+   
+}
+.bokinglapangan td .kotak1{
+    width: 210px;
+    height: 25px;
+    border-radius: 5px;
+}
+.bokinglapangan td .kotak5{
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.bokinglapangan td .kotak6{
+    height: 40px;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    background: rgb(69, 68, 68);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: -130px;
+}
+.bokinglapangan td .kotak6:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+.bokinglapangan td .kotak{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+.bokinglapangan td .pilihlap{
+    text-align: center;
+}
+.bokinglapangan td select{
+    height: 25px;
+    width: 210px;
+    border-radius: 5px;
+}
+.bokinglapangan td .kotak3{
+    width: 30px;
+    margin-left: -130px;
+    margin-right: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+.bokinglapangan .jam{
+    font-size: 20px;
+    height: 25px;
+    border-radius: 5px;
+}
+.bokinglapangan td .pilihpembayaran{
+    text-align: center;
+}
+.yo{
+    background-image: url('./1919401.jpg');
+    background-size: 100vh;
+}
+.abc h3{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 1000;
+}
+.abc{
+    margin-top: 25vh;
+    text-align: center;
+    border: 3px double black;
+    border-radius: 10px;
+    margin-inline: 25%;
+    background-color: rgba(144, 147, 150, 0.945);
+    padding: 30px;
+    font-weight: bold;
+}
+.abc td{
+    width: 50px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.abc td .kotak9{
+    border-radius: 5px;
+    border: 1px solid transparent;
+    height: 30px;
+}
+.abc td .kotak8{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 30px;
+}
+.abc table{
+    margin-left: 130px;
+}
+.abc td >a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 30px;
+    background-color: aliceblue;
+}
+.abc .login:hover{
+    background-color: rgb(74, 71, 71);
+    cursor: pointer;
+}
+.abc .login{
+    font-size: 20px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 5px;
+}

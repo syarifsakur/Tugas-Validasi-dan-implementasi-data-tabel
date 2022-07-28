@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS pemrograman web 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
+ 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+
+</head>
+<body>
+    <article id="semua">
+        <div id="kiri">
+            <div class="halnama">
+            <ul>
+                <li><img src="./logountad.png" alt=""></li>
+                <li class="nama"><h3>Syarif Mohammad Syakur</h3>
+                <h3>F55121020</h3></li>
+            </ul>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="data.html" class="datatabel">Daftar Lapangan</a></li>
+                    <li><a href="form.html">Booking</a></li>
+                    <li><input type="submit" value="LogOut" class="logout" onclick="exit()"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="halkanan">
+            <div class="kananatas">
+            </div>
+            <div class="kananbawah">
+                <div class="daftarlapangan">
+                <h3>PILIHLAH LAPANGAN YANG DI INGINKAN💯</h3>
+                    <table border="1" id="tabelSaya" class="display">
+                        <thead>
+                        <tr>
+                            <th>Nama Lapangan</th>
+                            <th>Alamat</th>
+                            <th>Harga</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td >Lapangan Futsal novega</td>
+                                <td>jln.Pipit</td>
+                                <td>rp.75.000/jam</td>
+                            </tr>
+                            <tr>
+                                <td>Lapangan Futsal yardan gelatik</td>
+                                <td>jln.Gelatik</td>
+                                <td>rp.95.000/jam</td>
+                            </tr>
+                            <tr>
+                                <td>Lapangan Futsal Banteng Fc</td>
+                                <td>jln.Banteng</td>
+                                <td>rp.50.000/jam</td>
+                            </tr>
+                            <tr>
+                                <td>Lapangan Futsal Nunu</td>
+                                <td>jln.Nunu</td>
+                                <td>rp.35.000/jam</td>
+                            </tr>
+                            <tr>
+                                <td>Lapangan Futsal GBK</td>
+                                <td>jln.Yos Sudarso</td>
+                                <td>rp.150.000/jam</td>
+                            </tr>
+                            <tr>
+                                <td>Lapangan Futsal Tanaris</td>
+                                <td>jln.Juanda</td>
+                                <td>rp.75.000/jam</td>
+                            </tr>
+                            <tr>
+                                <td>Lapangan Futsal Andy Syahru</td>
+                                <td>jln.Mandala</td>
+                                <td>rp.75.000/jam</td>
+                            </tr>
+                            <tr>
+                                <td>Lapangan Futsal Ahmad Yani</td>
+                                <td>jln.Ahmad Yani</td>
+                                <td>rp.125.000/jam</td>
+                            </tr>
+                            <tr>
+                                <td>Lapangan Futsal Merdeka</td>
+                                <td>jln.Merdeka</td>
+                                <td>rp.75.000/jam</td>
+                            </tr>
+                            <tr>
+                                <td>Lapangan Futsal Pue bongo</td>
+                                <td>jln.Pue Bongo</td>
+                                <td>rp.45.000/jam</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="index.js"></script>
+   
+</body>
+</html>
